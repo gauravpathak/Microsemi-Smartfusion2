@@ -1,0 +1,2 @@
+CKID0001:@|S:demo_sb_sb_0.CCC_0.CCC_INST@|E:demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:BIBUF_1@|E:demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST@|F:@syn_sample_clock_path1==CKID0002@|M:ClockId0002 

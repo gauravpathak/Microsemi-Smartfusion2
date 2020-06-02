@@ -1,0 +1,577 @@
+15:14:46 **** Build of configuration Debug for project Demo ****
+make all 
+Building file: ../firmware/hal/CortexM3/GNU/hal.S
+Invoking: GNU ARM Cross Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"firmware/hal/CortexM3/GNU/hal.d" -MT"firmware/hal/CortexM3/GNU/hal.o" -c -o "firmware/hal/CortexM3/GNU/hal.o" "../firmware/hal/CortexM3/GNU/hal.S"
+Finished building: ../firmware/hal/CortexM3/GNU/hal.S
+ 
+Building file: ../firmware/hal/CortexM3/GNU/hw_reg_access.S
+Invoking: GNU ARM Cross Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"firmware/hal/CortexM3/GNU/hw_reg_access.d" -MT"firmware/hal/CortexM3/GNU/hw_reg_access.o" -c -o "firmware/hal/CortexM3/GNU/hw_reg_access.o" "../firmware/hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../firmware/hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../firmware/hal/CortexM3/cortex_nvic.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/hal/CortexM3/cortex_nvic.d" -MT"firmware/hal/CortexM3/cortex_nvic.o" -c -o "firmware/hal/CortexM3/cortex_nvic.o" "../firmware/hal/CortexM3/cortex_nvic.c"
+Finished building: ../firmware/hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../firmware/drivers_config/sys_config/sys_config.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers_config/sys_config/sys_config.d" -MT"firmware/drivers_config/sys_config/sys_config.o" -c -o "firmware/drivers_config/sys_config/sys_config.o" "../firmware/drivers_config/sys_config/sys_config.c"
+Finished building: ../firmware/drivers_config/sys_config/sys_config.c
+ 
+Building file: ../firmware/drivers/mss_uart/mss_uart.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_uart/mss_uart.d" -MT"firmware/drivers/mss_uart/mss_uart.o" -c -o "firmware/drivers/mss_uart/mss_uart.o" "../firmware/drivers/mss_uart/mss_uart.c"
+Finished building: ../firmware/drivers/mss_uart/mss_uart.c
+ 
+Building file: ../firmware/drivers/mss_sys_services/mss_comblk.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_sys_services/mss_comblk.d" -MT"firmware/drivers/mss_sys_services/mss_comblk.o" -c -o "firmware/drivers/mss_sys_services/mss_comblk.o" "../firmware/drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../firmware/drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../firmware/drivers/mss_sys_services/mss_sys_services.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_sys_services/mss_sys_services.d" -MT"firmware/drivers/mss_sys_services/mss_sys_services.o" -c -o "firmware/drivers/mss_sys_services/mss_sys_services.o" "../firmware/drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../firmware/drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../firmware/drivers/mss_spi/mss_spi.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_spi/mss_spi.d" -MT"firmware/drivers/mss_spi/mss_spi.o" -c -o "firmware/drivers/mss_spi/mss_spi.o" "../firmware/drivers/mss_spi/mss_spi.c"
+Finished building: ../firmware/drivers/mss_spi/mss_spi.c
+ 
+Building file: ../firmware/drivers/mss_nvm/mss_nvm.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_nvm/mss_nvm.d" -MT"firmware/drivers/mss_nvm/mss_nvm.o" -c -o "firmware/drivers/mss_nvm/mss_nvm.o" "../firmware/drivers/mss_nvm/mss_nvm.c"
+Finished building: ../firmware/drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../firmware/drivers/mss_i2c/mss_i2c.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_i2c/mss_i2c.d" -MT"firmware/drivers/mss_i2c/mss_i2c.o" -c -o "firmware/drivers/mss_i2c/mss_i2c.o" "../firmware/drivers/mss_i2c/mss_i2c.c"
+Finished building: ../firmware/drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../firmware/drivers/mss_hpdma/mss_hpdma.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_hpdma/mss_hpdma.d" -MT"firmware/drivers/mss_hpdma/mss_hpdma.o" -c -o "firmware/drivers/mss_hpdma/mss_hpdma.o" "../firmware/drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../firmware/drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../firmware/drivers/mss_gpio/mss_gpio.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/drivers/mss_gpio/mss_gpio.d" -MT"firmware/drivers/mss_gpio/mss_gpio.o" -c -o "firmware/drivers/mss_gpio/mss_gpio.o" "../firmware/drivers/mss_gpio/mss_gpio.c"
+Finished building: ../firmware/drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../firmware/CMSIS/startup_gcc/newlib_stubs.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/CMSIS/startup_gcc/newlib_stubs.d" -MT"firmware/CMSIS/startup_gcc/newlib_stubs.o" -c -o "firmware/CMSIS/startup_gcc/newlib_stubs.o" "../firmware/CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../firmware/CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../firmware/CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: GNU ARM Cross Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"firmware/CMSIS/startup_gcc/startup_m2sxxx.d" -MT"firmware/CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "firmware/CMSIS/startup_gcc/startup_m2sxxx.o" "../firmware/CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../firmware/CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../firmware/CMSIS/system_m2sxxx.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"firmware/CMSIS/system_m2sxxx.d" -MT"firmware/CMSIS/system_m2sxxx.o" -c -o "firmware/CMSIS/system_m2sxxx.o" "../firmware/CMSIS/system_m2sxxx.c"
+Finished building: ../firmware/CMSIS/system_m2sxxx.c
+ 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13136	     32	  52368	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+15:17:06 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:96:2: error: too many arguments to function 'FLASH_read_device_id'
+  FLASH_read_device_id(&man_id, &dev_type, &dev_id);
+  ^~~~~~~~~~~~~~~~~~~~
+In file included from ../test.c:14:
+../winbondflash.h:18:6: note: declared here
+ void FLASH_read_device_id
+      ^~~~~~~~~~~~~~~~~~~~
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+make: *** [subdir.mk:23: test.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+15:17:07 **** Incremental Build of configuration Debug for project SPI-Test ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "SPI-Test.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9888	     32	  55616	  65536	  10000	SPI-Test.elf
+Finished building: SPI-Test.siz
+ 
+15:17:41 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13520	     32	  51984	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+15:17:47 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13520	     32	  51984	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+15:18:34 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15440	    128	  49968	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+15:18:37 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15440	    128	  49968	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+15:22:52 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15440	    128	  49968	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:00:44 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15344	    128	  50064	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:03:08 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15344	    128	  50064	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:03:11 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15344	    128	  50064	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:12:20 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15344	    128	  50064	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:12:23 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15344	    128	  50064	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:19:11 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15328	    128	  50080	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:19:43 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15312	    128	  50096	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:20:54 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../winbondflash.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"winbondflash.d" -MT"winbondflash.o" -c -o "winbondflash.o" "../winbondflash.c"
+Finished building: ../winbondflash.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15312	    128	  50096	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:20:59 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15312	    128	  50096	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:22:37 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15264	    128	  50144	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:22:41 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15264	    128	  50144	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:23:53 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15264	    128	  50144	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+16:24:00 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15264	    128	  50144	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 

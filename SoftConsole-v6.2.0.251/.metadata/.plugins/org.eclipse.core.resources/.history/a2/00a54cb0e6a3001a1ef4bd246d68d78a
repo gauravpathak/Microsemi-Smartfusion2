@@ -1,0 +1,199 @@
+/*******************************************************************************
+ * (c) Copyright 2008-2013 Microsemi SoC Products Group.  All rights reserved.
+ *
+ * This example project demonstrates communications with an external flash
+ * device.
+ *
+ * Please refer to the file README.txt for further details about this example.
+ *
+ * SVN $Revision: 5510 $
+ * SVN $Date: 2013-03-29 18:29:47 +0000 (Fri, 29 Mar 2013) $
+ */
+
+#include "drivers/mss_spi/mss_spi.h"
+#include "drivers/winbondflash/winbondflash.h"
+#include "drivers/mss_uart/mss_uart.h"
+
+#define BUFFER_A_SIZE  5
+
+/* Manufactuer and device IDs for SPI Flash. */
+/*
+#define FLASH_MANUFACTURER_ID   (uint8_t)0x1F
+#define FLASH_DEVICE_ID         (uint8_t)0x48
+ */
+/*
+ * Static global variables
+ */
+
+static uint8_t g_flash_wr_buf[BUFFER_A_SIZE];
+static uint8_t g_flash_rd_buf[BUFFER_A_SIZE];
+void Flash_write();
+void Flash_read();
+int scannumber();
+void Init();
+size_t UART_Polled_Rx
+(
+		mss_uart_instance_t * this_uart,
+		uint8_t * rx_buff,
+		size_t buff_size
+);
+uint32_t address = 0;
+uint16_t loop_count;
+uint8_t ch;
+uint8_t i;
+/*==============================================================================
+  Messages displayed over the UART.
+ */
+const uint8_t g_greeting_msg[] =
+		"\r\n\r\n\
+**********************************************************************\r\n\
+***************** SmartFusion2 MSS SPI Flash example *****************\r\n\
+**********************************************************************\r\n\
+This example project demonstrates the use of the SmartFusion2 MSS SPI\r\n\
+block.It reads and writes the content of an external SPI flash device\r\n\
+---------------------------------------------------------------------\r\n";
+/***************************************************************************//**
+ * main function.
+ */
+int main()
+{
+	volatile uint8_t errors = 0;
+	uint8_t manufacturer_id = 0;
+	uint8_t device_id = 0;
+
+
+	/* Disable Watchdog */
+	SYSREG->WDOG_CR = 0x00000000;
+	MSS_UART_init(&g_mss_uart1,
+			MSS_UART_115200_BAUD,
+			MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT);
+	MSS_UART_polled_tx_string(&g_mss_uart1, g_greeting_msg);
+
+
+	/*--------------------------------------------------------------------------
+	 * Flash Driver Initialization
+	 */
+	FLASH_init();
+
+	FLASH_global_unprotect();
+
+	/*--------------------------------------------------------------------------
+	 * Check SPI Flash part manufacturer and device ID.
+
+    FLASH_read_device_id(&manufacturer_id, &device_id);
+
+    if ((manufacturer_id != FLASH_MANUFACTURER_ID) || (device_id != FLASH_DEVICE_ID))
+    {
+       ++errors;
+    }*/
+
+	while(1)
+	{
+		Init();
+	}
+	return 0;
+}
+/*--------------------------------------------------------------------------
+ * Write Data to Flash.
+ */
+
+void Init()
+{
+	MSS_UART_polled_tx_string( &g_mss_uart1,(const uint8_t*)"\n\rEnter your choice and press Enter\n\r 1.Write \n\r 2.Read \n\r " );
+	ch = scannumber();
+
+	if(ch==1)
+		Flash_write();
+	else if(ch==2)
+		Flash_read();
+	else
+		MSS_UART_polled_tx_string( &g_mss_uart1,(const uint8_t*)"Enter correct choice\n\r" );
+}
+void Flash_write()
+{
+	address = 0;
+	for(loop_count = 0; loop_count <(BUFFER_A_SIZE); loop_count++)
+	{
+		g_flash_wr_buf[loop_count] = 0;
+	}
+	FLASH_erase_64k_block(0);
+	printf("Enter any 5 values between 0 to 99 to write to Flash Memory \n\r\n\r");
+
+	for(i=0;i<5;i++)
+	{
+
+		g_flash_wr_buf[i] = scannumber();
+		while(g_flash_wr_buf[i]<0 || g_flash_wr_buf[i]> 99 )
+		{
+			MSS_UART_polled_tx_string( &g_mss_uart1,(const uint8_t*)"Enter only 2 digit number\n\r" );
+			Init();
+		}
+	}
+	FLASH_program(address, g_flash_wr_buf, sizeof(g_flash_wr_buf));
+
+}
+/*--------------------------------------------------------------------------
+ * Read Data From Flash.
+ */
+void Flash_read()
+{
+	address = 0;
+	for(loop_count = 0; loop_count <(BUFFER_A_SIZE); loop_count++)
+	{
+		g_flash_rd_buf[loop_count] = 0;
+	}
+	FLASH_read(address, g_flash_rd_buf, sizeof(g_flash_wr_buf));
+	printf( " \n\r Read Data From Flash");
+	for(i=0;i<(BUFFER_A_SIZE);i++)
+	{
+		printf("\n\r %d",g_flash_rd_buf[i]);
+
+	}
+	printf( " \n\r Read operation is completed \n\r ");
+}
+
+
+size_t
+UART_Polled_Rx
+(
+		mss_uart_instance_t * this_uart,
+		uint8_t * rx_buff,
+		size_t buff_size
+)
+{
+	size_t rx_size = 0U;
+
+	while( rx_size < buff_size )
+	{
+		while ( ((this_uart->hw_reg->LSR) & 0x1) != 0U  )
+		{
+			rx_buff[rx_size] = this_uart->hw_reg->RBR;
+			++rx_size;
+		}
+	}
+
+	return rx_size;
+}
+int scannumber()
+{
+	uint8_t rxbuff,x[8]={0},i=0;//[8];
+	mss_uart_instance_t * this_uart = &g_mss_uart1;
+	int num;
+	while(i<5)
+	{
+		UART_Polled_Rx( &g_mss_uart1, &rxbuff, sizeof(rxbuff) );
+
+		if(rxbuff == '\n')
+		{
+			rxbuff= this_uart->hw_reg->RBR;
+			rxbuff= this_uart->hw_reg->RBR;
+			break;
+		}
+		else
+			x[i++]=rxbuff;
+	}
+	num = atoi(x);
+	return num;
+}
+
+

@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  demo_sb  -multisrs  D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\demo_sb_comp.srs  -osyn  D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\demo_sb_mult.srs  -log  D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synlog\demo_sb_multi_srs_gen.srr 
+relcom:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe -link -top demo_sb -multisrs ..\synwork\demo_sb_comp.srs -osyn ..\synwork\demo_sb_mult.srs -log ..\synlog\demo_sb_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\demo_sb_comp.srs|io:i|time:1591090128|size:65595|exec:0|csum:5528B2C96F52CB4967BCBA73FAD0D6DA
+file:..\synwork\demo_sb_mult.srs|io:o|time:1591090130|size:3502|exec:0|csum:
+file:..\synlog\demo_sb_multi_srs_gen.srr|io:o|time:1591090130|size:1164|exec:0|csum:
+file:C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1582898378|size:8841216|exec:1|csum:0CC7C05A48C9642EAD04A8A03F593C86

@@ -1,0 +1,12 @@
+#include "firmware/drivers/mss_sys_services/mss_sys_services.h"
+#include "firmware/CMSIS/system_m2sxxx.h"
+#include "firmware/CMSIS/m2sxxx.h"
+#include "firmware/drivers/mss_uart/mss_uart.h"
+#include "firmware/drivers/mss_spi/mss_spi.h"
+
+mss_uart_instance_t g_mss_uart_0l
+int main(void) {
+
+	MSS_UART_init(this_uart, baud_rate, line_config)
+	return 0;
+}

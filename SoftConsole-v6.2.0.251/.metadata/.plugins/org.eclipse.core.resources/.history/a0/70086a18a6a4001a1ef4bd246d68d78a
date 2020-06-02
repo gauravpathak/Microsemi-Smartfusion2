@@ -1,0 +1,41 @@
+#include "firmware/drivers/mss_sys_services/mss_sys_services.h"
+#include "firmware/CMSIS/system_m2sxxx.h"
+#include "firmware/CMSIS/m2sxxx.h"
+#include "firmware/drivers/mss_uart/mss_uart.h"
+#include "firmware/drivers/mss_spi/mss_spi.h"
+#include "winbondflash.h"
+
+mss_uart_instance_t g_mss_uart0;
+
+void delay() {
+	int d;
+	d = (SystemCoreClock >> 8);
+	while(d) {
+		d--;
+	}
+}
+int main(void) {
+
+	SystemInit();
+	SystemCoreClockUpdate();
+
+	MSS_UART_init(&g_mss_uart0, MSS_UART_115200_BAUD,
+			MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT);
+
+	MSS_UART_irq_tx(&g_mss_uart0, "Hello Xebrium\r\n", sizeof("Hello Xebrium\r\n"));
+	while(0 == MSS_UART_tx_complete(&g_mss_uart0))
+	{
+		;
+	}
+
+	while (1) {
+		MSS_UART_irq_tx(&g_mss_uart0, "Hello World\r\n", sizeof("Hello World\r\n"));
+		while(0 == MSS_UART_tx_complete(&g_mss_uart0))
+		{
+			;
+		}
+		delay();
+		delay();
+	}
+	return 0;
+}

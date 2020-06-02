@@ -1,0 +1,11 @@
+15:17:07 **** Incremental Build of configuration Debug for project SPI-Test ****
+make all 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "SPI-Test.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9888	     32	  55616	  65536	  10000	SPI-Test.elf
+Finished building: SPI-Test.siz
+ 
+
+15:17:07 Build Finished. 0 errors, 0 warnings. (took 371ms)
+

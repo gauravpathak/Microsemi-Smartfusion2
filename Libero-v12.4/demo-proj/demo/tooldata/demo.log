@@ -1,0 +1,16 @@
+Project Name: demo
+Location: D:\SmartFusion2-Projects-Windows\demo-proj\demo
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S025-VF256
+Family         : SmartFusion2
+Die            : M2S025
+Package        : 256 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

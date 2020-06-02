@@ -1,0 +1,7 @@
+Detailed Resource Usage
+Module Name,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+Primitives/Primitives,0,9,0,0,0,0,0
+demo_sb_sb_0/CCC_0/Primitives,0,0,1,1,0,0,0
+demo_sb_sb_0/CORERESETP_0/Primitives,3,0,0,0,0,0,0
+demo_sb_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,1
+demo_sb_sb_0/demo_sb_sb_MSS_0/Primitives,0,4,0,0,1,0,0

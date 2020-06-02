@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+
+Date      :  Tue Jun  2 14:58:34 2020
+Project   :  D:\SmartFusion2-Projects-Windows\demo-proj\demo
+Component :  demo_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb/demo_sb.v
+
+Stimulus files for all Simulation tools:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb/subsystem.bfm
+

@@ -1,0 +1,10 @@
+DESIGN=demo_sb
+DESDIR=D:\SmartFusion2-Projects-Windows\demo-proj\demo\designer\demo_sb
+TARGET_DIR=D:\SmartFusion2-Projects-Windows\demo-proj\demo\designer\demo_sb
+FAM=SmartFusion2
+DIE=PA4M2500_N
+PACKAGE=vf256
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

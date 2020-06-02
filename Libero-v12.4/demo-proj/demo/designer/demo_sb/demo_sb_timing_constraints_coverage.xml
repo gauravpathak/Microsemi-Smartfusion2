@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<text>SmartTime Version 12.900.0.16</text>
+<text>Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+Date: Tue Jun  2 15:02:21 2020 </text>
+<table>
+<header>
+</header>
+<row>
+ <cell>Design</cell>
+ <cell>demo_sb</cell>
+</row>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Die</cell>
+ <cell>M2S025</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>256 VF</cell>
+</row>
+<row>
+ <cell>Temperature Range</cell>
+ <cell>0 - 85 C</cell>
+</row>
+<row>
+ <cell>Voltage Range</cell>
+ <cell>1.14 - 1.26 V</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>STD</cell>
+</row>
+</table>
+<text></text>
+<text></text>
+<section>
+<name>Coverage Summary</name>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>           10</cell>
+ <cell>           10</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           18</cell>
+ <cell>           18</cell>
+</row>
+</table>
+<section>
+<name>Clock domain: </name>
+<text>I2C_0_SCL</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            1</cell>
+ <cell>            1</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>I2C_0_SDA</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on port:</text>
+<text>   </text>
+<list>
+ <item>I2C_0_SDA</item>
+</list>
+<text></text>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:I2C0_SDA_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pin:</text>
+<text>   </text>
+<list>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:I2C0_SDA_F2H_SCP</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>demo_sb_sb_0/CCC_0/CCC_INST/INST_CCC_IP:GL0</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>           13</cell>
+ <cell>           13</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            3</cell>
+ <cell>            3</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            6</cell>
+ <cell>            6</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>           13</cell>
+ <cell>           13</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text> - Max input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_9_F2M</item>
+ <item>MMUART_0_RXD_F2M</item>
+</list>
+<text></text>
+<text> - Min input delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_9_F2M</item>
+ <item>MMUART_0_RXD_F2M</item>
+</list>
+<text></text>
+<text></text>
+<text> - Max output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_2_M2F</item>
+ <item>GPIO_3_M2F</item>
+ <item>GPIO_4_M2F</item>
+ <item>GPIO_8_M2F</item>
+ <item>MMUART_0_TXD_M2F</item>
+ <item>SPI_0_DO</item>
+</list>
+<text></text>
+<text> - Min output delay constraint missing on ports:</text>
+<text>   </text>
+<list>
+ <item>GPIO_2_M2F</item>
+ <item>GPIO_3_M2F</item>
+ <item>GPIO_4_M2F</item>
+ <item>GPIO_8_M2F</item>
+ <item>MMUART_0_TXD_M2F</item>
+ <item>SPI_0_DO</item>
+</list>
+<text></text>
+<text></text>
+<text> - Setup unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>demo_sb_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base:D</item>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:MGPIO9A_F2H_GPIN</item>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:MMUART0_RXD_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Recovery unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>demo_sb_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base:ALn</item>
+ <item>demo_sb_sb_0/CORERESETP_0/RESET_N_F2M_int:ALn</item>
+ <item>demo_sb_sb_0/CORERESETP_0/sm1_areset_n_q1:ALn</item>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:USER_MSS_RESET_N</item>
+</list>
+<text></text>
+<text> - Hold unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>demo_sb_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base:D</item>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:MGPIO9A_F2H_GPIN</item>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:MMUART0_RXD_F2H_SCP</item>
+</list>
+<text></text>
+<text> - Removal unconstrained for the following pins:</text>
+<text>   </text>
+<list>
+ <item>demo_sb_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base:ALn</item>
+ <item>demo_sb_sb_0/CORERESETP_0/RESET_N_F2M_int:ALn</item>
+ <item>demo_sb_sb_0/CORERESETP_0/sm1_areset_n_q1:ALn</item>
+ <item>demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST/INST_MSS_025_IP:USER_MSS_RESET_N</item>
+</list>
+<text></text>
+</section>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>demo_sb_sb_0/FABOSC_0/I_RCOSC_25_50MHZ:CLKOUT</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+<section>
+<name>Clock domain: </name>
+<text>gated-clocks</text>
+<text></text>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Recovery</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Setup</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<separator/>
+<row>
+ <cell>Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Removal</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+<row>
+ <cell>Total Hold</cell>
+ <cell>            0</cell>
+ <cell>            4</cell>
+ <cell>            4</cell>
+</row>
+</table>
+<section>
+<name>Enhancement Suggestions</name>
+<text></text>
+<text> - Clock constraint is missing </text>
+<text></text>
+<text></text>
+</section>
+</section>
+<section>
+<name>Input to Output</name>
+<table>
+<header>
+ <cell>Type of check</cell>
+ <cell>Constrained</cell>
+ <cell>UnConstrained</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Output Setup</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+<separator/>
+<row>
+ <cell>Output Hold</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+ <cell>            0</cell>
+</row>
+</table>
+</section>
+</section>
+</doc>

@@ -1,0 +1,46 @@
+# Microsemi Physical design constraints file
+
+# Version: v12.4 12.900.0.16
+
+# Design Name: demo_sb 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF , Speed grade: STD 
+
+# Date generated: Tue Jun  2 15:01:52 2020 
+
+
+#
+# I/O constraints
+#
+
+set_io GPIO_2_M2F -DIRECTION OUTPUT -pinname J16 -fixed no
+set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname K16 -fixed no
+set_io GPIO_4_M2F -DIRECTION OUTPUT -pinname M16 -fixed no
+set_io GPIO_8_M2F -DIRECTION OUTPUT -pinname N16 -fixed no
+set_io GPIO_9_F2M -DIRECTION INPUT -pinname E15 -fixed no
+set_io I2C_0_SCL -DIRECTION INOUT -pinname T6 -fixed no
+set_io I2C_0_SDA -DIRECTION INOUT -pinname T9 -fixed no
+set_io MMUART_0_RXD_F2M -DIRECTION INPUT -pinname P12 -fixed no
+set_io MMUART_0_TXD_M2F -DIRECTION OUTPUT -pinname P13 -fixed no
+set_io SPI_0_CLK -DIRECTION INOUT -pinname J14 -fixed no
+set_io SPI_0_DI -DIRECTION INPUT -pinname J13 -fixed no
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname K12 -fixed no
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname J12 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location demo_sb_sb_0/CORERESETP_0/sm1_areset_n_q1 -fixed no 628 97
+set_location demo_sb_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 446 144
+set_location demo_sb_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 24 134
+set_location ip_interface_inst -fixed no 203 0
+set_location demo_sb_sb_0/CORERESETP_0/RESET_N_F2M_int -fixed no 625 97
+set_location demo_sb_sb_0/CCC_0/GL0_INST -fixed no 297 72
+set_location demo_sb_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 624 97
+set_location demo_sb_sb_0/SYSRESET_POR -fixed no 624 8
+set_location demo_sb_sb_0/demo_sb_sb_MSS_0/MSS_ADLIB_INST -fixed no 528 146
+set_location demo_sb_sb_0/CCC_0/CCC_INST -fixed no 18 134
+set_location demo_sb_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 446 96

@@ -1,0 +1,41 @@
+16:24:00 **** Incremental Build of configuration Debug for project Demo ****
+make all 
+Building file: ../test.c
+Invoking: GNU ARM Cross C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"test.d" -MT"test.o" -c -o "test.o" "../test.c"
+../test.c: In function 'main':
+../test.c:101:2: warning: implicit declaration of function 'memset' [-Wimplicit-function-declaration]
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+../test.c:101:2: warning: incompatible implicit declaration of built-in function 'memset'
+../test.c:101:2: note: include '<string.h>' or provide a declaration of 'memset'
+../test.c:19:1:
++#include <string.h>
+ 
+../test.c:101:2:
+  memset(buff, 0, sizeof(buff));
+  ^~~~~~
+Finished building: ../test.c
+ 
+Building target: Demo.elf
+Invoking: GNU ARM Cross C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\SmartFusion2-Projects-Windows\demo-proj\demo\firmware\CMSIS\startup_gcc\debug-in-microsemi-smartfusion2-esram.ld" -Xlinker --gc-sections -Wl,-Map,"Demo.map" --specs=nano.specs -o "Demo.elf"  ./firmware/hal/CortexM3/GNU/hal.o ./firmware/hal/CortexM3/GNU/hw_reg_access.o  ./firmware/hal/CortexM3/cortex_nvic.o  ./firmware/drivers_config/sys_config/sys_config.o  ./firmware/drivers/mss_uart/mss_uart.o  ./firmware/drivers/mss_sys_services/mss_comblk.o ./firmware/drivers/mss_sys_services/mss_sys_services.o  ./firmware/drivers/mss_spi/mss_spi.o  ./firmware/drivers/mss_nvm/mss_nvm.o  ./firmware/drivers/mss_i2c/mss_i2c.o  ./firmware/drivers/mss_hpdma/mss_hpdma.o  ./firmware/drivers/mss_gpio/mss_gpio.o  ./firmware/CMSIS/startup_gcc/newlib_stubs.o ./firmware/CMSIS/startup_gcc/startup_m2sxxx.o  ./firmware/CMSIS/system_m2sxxx.o  ./test.o ./winbondflash.o   
+Finished building target: Demo.elf
+ 
+Invoking: GNU ARM Cross Create Flash Image
+arm-none-eabi-objcopy -O ihex "Demo.elf"  "Demo.hex"
+Finished building: Demo.hex
+ 
+Invoking: GNU ARM Cross Create Listing
+arm-none-eabi-objdump --source --all-headers --demangle --line-numbers --wide "Demo.elf" > "Demo.lst"
+Finished building: Demo.lst
+ 
+Invoking: GNU ARM Cross Print Size
+arm-none-eabi-size --format=berkeley "Demo.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15264	    128	  50144	  65536	  10000	Demo.elf
+Finished building: Demo.siz
+ 
+
+16:24:01 Build Finished. 0 errors, 2 warnings. (took 1s.103ms)
+

@@ -1,0 +1,41 @@
+Software Version: 12.900.0.16
+Embedded FlashPro5 programmer detected.
+programmer 'E200108CTE' : FlashPro5
+Opened 'D:\SmartFusion2-Projects-Windows\demo-proj\demo\designer\demo_sb\demo_sb_fp\demo_sb.pro'
+The 'open_project' command succeeded.
+Warning: Programming is already enabled for device 'M2S025'.
+The 'enable_device' command succeeded.
+PPD file 'D:/SmartFusion2-Projects-Windows/demo-proj/demo/designer/demo_sb/demo_sb.ppd' has been loaded successfully.
+DESIGN : demo_sb;  CHECKSUM : 7781;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E200108CTE' : Scan Chain...
+programmer 'E200108CTE' : Check Chain...
+programmer 'E200108CTE' : Scan and Check Chain PASSED.
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM
+programmer 'E200108CTE' : device 'M2S025' : Family: Igloo2
+programmer 'E200108CTE' : device 'M2S025' : Product:      M2GL005
+programmer 'E200108CTE' : device 'M2S025' : Cortex-M3 Disabled (M3_ALLOWED = 0)
+programmer 'E200108CTE' : device 'M2S025' : EXPORT ISC_ENABLE_RESULT[32] = 007b6744
+programmer 'E200108CTE' : device 'M2S025' : EXPORT CRCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : EXPORT EDCERR[1] = 0
+programmer 'E200108CTE' : device 'M2S025' : Programming FPGA Array and eNVM...
+programmer 'E200108CTE' : device 'M2S025' : EXPORT eNVM component digest[256] = fae1f9bdff3db295b4473a06d8f37b4c119de5ca400564bef280339a907a50b3
+programmer 'E200108CTE' : device 'M2S025' : EXPORT Fabric component digest[256] = 341179262b079aac0e3454ad1311498026b0a4ad71fa4a9f4e3f925ab6e8686b
+programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : EXPORT DSN[128] = 65307711ff43aa7cdc43aaf21a2c97cf
+programmer 'E200108CTE' : device 'M2S025' : ===================================================================================
+programmer 'E200108CTE' : device 'M2S025' : Finished: Tue Jun  2 15:04:58 2020 (Elapsed time 00:00:56)
+programmer 'E200108CTE' : device 'M2S025' : Executing action PROGRAM PASSED.
+programmer 'E200108CTE' : Chain programming PASSED.
+Chain Programming Finished: Tue Jun  2 15:04:58 2020 (Elapsed time 00:00:56)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file D:\SmartFusion2-Projects-Windows\demo-proj\demo\designer\demo_sb\demo_sb_fp\demo_sb.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

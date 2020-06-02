@@ -1,0 +1,96 @@
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp2019q2p1, Build 273R, Built Dec 16 2019 13:19:32
+
+Modified Files: 6
+FID:  path (prevtimestamp, timestamp)
+8        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33)
+9        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\CCC_0\demo_sb_sb_CCC_0_FCCC.v (2020-05-28 16:47:01, 2020-06-02 14:57:31)
+10       D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33)
+11       D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33)
+12       D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v (2020-05-28 16:46:59, 2020-06-02 14:57:29)
+13       D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS_syn.v (2020-05-28 16:46:58, 2020-06-02 14:57:28)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 14
+MID:  lib.cell.view
+0        work.CoreResetP.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+1        work.MSS_025.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v (2020-05-28 16:46:59, 2020-06-02 14:57:29) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS_syn.v (2020-05-28 16:46:58, 2020-06-02 14:57:28) <-- (module definition)
+2        work.RCOSC_1MHZ.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+3        work.RCOSC_1MHZ_FAB.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+4        work.RCOSC_25_50MHZ.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+5        work.RCOSC_25_50MHZ_FAB.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+6        work.XTLOSC.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+7        work.XTLOSC_FAB.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+8        work.coreresetp_pcie_hotreset.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+9        work.demo_sb.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (module definition)
+10       work.demo_sb_sb.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (module definition)
+11       work.demo_sb_sb_CCC_0_FCCC.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\CCC_0\demo_sb_sb_CCC_0_FCCC.v (2020-05-28 16:47:01, 2020-06-02 14:57:31) <-- (module definition)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+12       work.demo_sb_sb_FABOSC_0_OSC.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (module definition)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+13       work.demo_sb_sb_MSS.verilog may have changed because the following files changed:
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v (2020-05-28 16:52:18, 2020-06-02 14:58:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v (2020-05-28 16:47:03, 2020-06-02 14:57:33) <-- (may instantiate this module)
+                        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v (2020-05-28 16:46:59, 2020-06-02 14:57:29) <-- (module definition)
+
+*******************************************************************
+Unmodified files: 8
+FID:  path (timestamp)
+0        C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v (2020-02-28 19:29:45)
+1        C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\hypermods.v (2020-02-28 19:29:46)
+2        C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\scemi_objects.v (2020-02-28 19:29:46)
+3        C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\scemi_pipes.svh (2020-02-28 19:29:46)
+4        C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\umr_capim.v (2020-02-28 19:29:46)
+5        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (2020-05-25 12:16:55)
+6        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (2020-05-25 12:16:55)
+7        D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2020-05-25 12:16:56)
+
+*******************************************************************
+Unchanged modules: 0
+MID:  lib.cell.view

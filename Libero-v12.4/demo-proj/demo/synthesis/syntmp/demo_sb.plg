@@ -1,0 +1,21 @@
+@P:  Worst Slack : 9.409
+@P:  demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 1691.2 MHz
+@P:  demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 0.591
+@P:  demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 9.409
+@P:  demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : NA
+@P:  demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : NA
+@P:  demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : NA
+@P:  demo_sb|BIBUF_1_Y_inferred_clock - Estimated Frequency : NA
+@P:  demo_sb|BIBUF_1_Y_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  demo_sb|BIBUF_1_Y_inferred_clock - Estimated Period : NA
+@P:  demo_sb|BIBUF_1_Y_inferred_clock - Requested Period : 10.000
+@P:  demo_sb|BIBUF_1_Y_inferred_clock - Slack : NA
+@P: demo_sb Part : m2s025vf400std
+@P: demo_sb Register bits  : 3 
+@P: demo_sb DSP Blocks  : 0
+@P: demo_sb I/O primitives : 13
+@P:  CPU Time : 0h:00m:02s

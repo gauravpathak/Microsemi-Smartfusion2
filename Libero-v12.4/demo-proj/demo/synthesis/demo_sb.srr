@@ -1,0 +1,889 @@
+#Build: Synplify Pro (R) P-2019.03M-SP1-1, Build 266R, Dec  6 2019
+#install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-R8J42A9
+
+# Tue Jun  2 14:58:45 2020
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp2019q2p1, Build 273R, Built Dec 16 2019 13:19:32
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\CCC_0\demo_sb_sb_CCC_0_FCCC.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS_syn.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v" (library work)
+@I::"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v" (library work)
+Verilog syntax check successful!
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\CCC_0\demo_sb_sb_CCC_0_FCCC.v changed - recompiling
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v changed - recompiling
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS_syn.v changed - recompiling
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v changed - recompiling
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v changed - recompiling
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v changed - recompiling
+Selecting top level module demo_sb
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+Running optimization stage 1 on BIBUF .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+Running optimization stage 1 on CCC .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\CCC_0\demo_sb_sb_CCC_0_FCCC.v":5:7:5:27|Synthesizing module demo_sb_sb_CCC_0_FCCC in library work.
+Running optimization stage 1 on demo_sb_sb_CCC_0_FCCC .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z1
+Running optimization stage 1 on CoreResetP_Z1 .......
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_025 in library work.
+Running optimization stage 1 on MSS_025 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+Running optimization stage 1 on INBUF .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+Running optimization stage 1 on TRIBUFF .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v":9:7:9:20|Synthesizing module demo_sb_sb_MSS in library work.
+Running optimization stage 1 on demo_sb_sb_MSS .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v":5:7:5:29|Synthesizing module demo_sb_sb_FABOSC_0_OSC in library work.
+Running optimization stage 1 on demo_sb_sb_FABOSC_0_OSC .......
+@W: CL318 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.4\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+Running optimization stage 1 on SYSRESET .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v":9:7:9:16|Synthesizing module demo_sb_sb in library work.
+Running optimization stage 1 on demo_sb_sb .......
+@N: CG364 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v":9:7:9:13|Synthesizing module demo_sb in library work.
+Running optimization stage 1 on demo_sb .......
+Running optimization stage 2 on demo_sb .......
+Running optimization stage 2 on demo_sb_sb .......
+Running optimization stage 2 on SYSRESET .......
+Running optimization stage 2 on demo_sb_sb_FABOSC_0_OSC .......
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Running optimization stage 2 on demo_sb_sb_MSS .......
+Running optimization stage 2 on TRIBUFF .......
+Running optimization stage 2 on INBUF .......
+Running optimization stage 2 on MSS_025 .......
+Running optimization stage 2 on CoreResetP_Z1 .......
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+Running optimization stage 2 on demo_sb_sb_CCC_0_FCCC .......
+Running optimization stage 2 on CCC .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on GND .......
+Running optimization stage 2 on VCC .......
+Running optimization stage 2 on BIBUF .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\layer0.rt.csv
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Tue Jun  2 14:58:48 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 88MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun  2 14:58:48 2020
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\demo_sb_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 18MB peak: 19MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Tue Jun  2 14:58:48 2020
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp2019q2p1, Build 265R, Built Dec  6 2019 09:07:42
+
+@N|Running in 64-bit mode
+File D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\demo_sb_comp.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 88MB peak: 89MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jun  2 14:58:50 2020
+
+###########################################################]
+Premap Report
+
+# Tue Jun  2 14:58:50 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+Reading constraint file: D:\SmartFusion2-Projects-Windows\demo-proj\demo\designer\demo_sb\synthesis.fdc
+@L: D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\demo_sb_scck.rpt 
+Printing clock  summary report in "D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\demo_sb_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 128MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 127MB peak: 128MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 129MB)
+
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance demo_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=31 on top level netlist demo_sb 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                         Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                                         Frequency     Period        Type         Group                   Load 
+----------------------------------------------------------------------------------------------------------------------------------------------
+0 -       demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0     39   
+                                                                                                                                              
+0 -       demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     15   
+                                                                                                                                              
+0 -       demo_sb|BIBUF_1_Y_inferred_clock                              100.0 MHz     10.000        inferred     Inferred_clkgroup_2     1    
+==============================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                              Clock     Source                                                            Clock Pin                                                         Non-clock Pin     Non-clock Pin                                                   
+Clock                                                         Load      Pin                                                               Seq Example                                                       Seq Example       Comb Example                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  39        demo_sb_sb_0.CCC_0.CCC_INST.GL0(CCC)                              demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE             -                 demo_sb_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                              
+demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        demo_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     demo_sb_sb_0.CORERESETP_0.release_sdif0_core.C                    -                 demo_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+                                                                                                                                                                                                                                                                                              
+demo_sb|BIBUF_1_Y_inferred_clock                              1         BIBUF_1.O(IOBUF)                                                  demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST.I2C0_SCL_F2H_SCP     -                 -                                                               
+==============================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Found inferred clock demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 39 sequential elements including demo_sb_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Found inferred clock demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb_mss\demo_sb_sb_mss.v":273:0:273:13|Found inferred clock demo_sb|BIBUF_1_Y_inferred_clock which controls 1 sequential elements including demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\demo_sb.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 162MB peak: 162MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 81MB peak: 165MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jun  2 14:58:51 2020
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Jun  2 14:58:51 2020
+
+
+Copyright (C) 1994-2019 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: P-2019.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.4\SynplifyPro
+OS: Windows 6.2
+
+Hostname: DESKTOP-R8J42A9
+
+Implementation : synthesis
+Synopsys Generic Technology Mapper, Version mapact, Build 2737R, Built Jan 20 2020 09:12:46
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 116MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 119MB peak: 127MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 120MB peak: 127MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 122MB peak: 127MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 158MB peak: 158MB)
+
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\fabosc_0\demo_sb_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.demo_sb_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":496:4:496:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.sm1_areset_n_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm1_areset_n_clk_base because it is equivalent to instance demo_sb_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z1(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 162MB peak: 162MB)
+
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[6] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 163MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 164MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 163MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 164MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif1_core (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif1_core (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif0_core (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif0_core (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.RESET_N_M2F_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Boundary register demo_sb_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":526:4:526:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":511:4:511:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.RESET_N_M2F_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif0_core_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.ddr_settled (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Boundary register demo_sb_sb_0.CORERESETP_0.ddr_settled (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif3_core (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif3_core (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.release_sdif2_core (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Boundary register demo_sb_sb_0.CORERESETP_0.release_sdif2_core (in view: work.demo_sb(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":565:4:565:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.MSS_HPMS_READY_int (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[5] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[4] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[3] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[2] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[1] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.sm0_state[0] (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.mss_ready_state (in view: work.demo_sb(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":545:4:545:9|Removing sequential instance demo_sb_sb_0.CORERESETP_0.mss_ready_select (in view: work.demo_sb(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 164MB peak: 165MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:01s		     9.39ns		   7 /         3
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 165MB peak: 165MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
+0 instances converted, 4 sequential instances remain driven by gated/generated clocks
+
+========================================== Non-Gated/Non-Generated Clocks ==========================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                             
+--------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       BIBUF_1             BIBUF                  1          demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST
+====================================================================================================================
+==================================================================================== Gated/Generated Clocks ====================================================================================
+Clock Tree ID     Driving Element                 Drive Element Type     Fanout     Sample Instance                                  Explanation                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       demo_sb_sb_0.CCC_0.CCC_INST     CCC                    4          demo_sb_sb_0.demo_sb_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_025
+================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 137MB peak: 165MB)
+
+Writing Analyst data base D:\SmartFusion2-Projects-Windows\demo-proj\demo\synthesis\synwork\demo_sb_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 165MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 165MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 164MB peak: 166MB)
+
+@W: MT246 :"d:\smartfusion2-projects-windows\demo-proj\demo\component\work\demo_sb_sb\ccc_0\demo_sb_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net demo_sb_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net demo_sb_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
+@W: MT420 |Found inferred clock demo_sb|BIBUF_1_Y_inferred_clock with period 10.00ns. Please declare a user-defined clock on net BIBUF_1_Y.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jun  2 14:58:54 2020
+#
+
+
+Top view:               demo_sb
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\SmartFusion2-Projects-Windows\demo-proj\demo\designer\demo_sb\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 9.409
+
+                                                              Requested     Estimated      Requested     Estimated               Clock        Clock              
+Starting Clock                                                Frequency     Frequency      Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     1691.2 MHz     10.000        0.591         9.409     inferred     Inferred_clkgroup_0
+demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA             10.000        NA            NA        inferred     Inferred_clkgroup_1
+demo_sb|BIBUF_1_Y_inferred_clock                              100.0 MHz     NA             10.000        NA            NA        inferred     Inferred_clkgroup_2
+=================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                      |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                      Ending                                        |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock  demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      9.409  |  No paths    -      |  No paths    -      |  No paths    -    
+==================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                              Starting                                                                              Arrival          
+Instance                                      Reference                                        Type     Pin     Net                 Time        Slack
+                                              Clock                                                                                                  
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+demo_sb_sb_0.CORERESETP_0.sm1_areset_n_q1     demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm1_areset_n_q1     0.087       9.409
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                                              Required          
+Instance                                                Reference                                        Type     Pin     Net                 Time         Slack
+                                                        Clock                                                                                                   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+demo_sb_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base     demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm1_areset_n_q1     9.745        9.409
+================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.255
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.745
+
+    - Propagation time:                      0.336
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     9.409
+
+    Number of logic level(s):                0
+    Starting point:                          demo_sb_sb_0.CORERESETP_0.sm1_areset_n_q1 / Q
+    Ending point:                            demo_sb_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base / D
+    The start point is clocked by            demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                   Pin      Pin               Arrival     No. of    
+Name                                                    Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------
+demo_sb_sb_0.CORERESETP_0.sm1_areset_n_q1               SLE      Q        Out     0.087     0.087       -         
+sm1_areset_n_q1                                         Net      -        -       0.248     -           1         
+demo_sb_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base     SLE      D        In      -         0.336       -         
+==================================================================================================================
+Total path delay (propagation time + setup) of 0.591 is 0.343(58.0%) logic and 0.248(42.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 166MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 165MB peak: 166MB)
+
+---------------------------------------
+Resource Usage Report for demo_sb 
+
+Mapping to part: m2s025vf400std
+Cell usage:
+CCC             1 use
+CLKINT          1 use
+MSS_025         1 use
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+
+
+Sequential Cells: 
+SLE            3 uses
+
+DSP Blocks:    0 of 34 (0%)
+
+I/O ports: 14
+I/O primitives: 13
+BIBUF          4 uses
+INBUF          3 uses
+OUTBUF         5 uses
+TRIBUFF        1 use
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    0
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  3 + 0 + 0 + 0 = 3;
+Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 56MB peak: 166MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+# Tue Jun  2 14:58:54 2020
+
+###########################################################]

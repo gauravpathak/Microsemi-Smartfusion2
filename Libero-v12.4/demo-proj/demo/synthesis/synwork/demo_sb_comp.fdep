@@ -1,0 +1,60 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\synthesis\\synwork\\demo_sb_comp.srs|-top|demo_sb|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\bin64\\c_ver.exe":1582898378
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\generic\\smartfusion2.v":1582898385
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vlog\\hypermods.v":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vlog\\umr_capim.v":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1582898386
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.4\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1582898386
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\work\\demo_sb_sb\\CCC_0\\demo_sb_sb_CCC_0_FCCC.v":1591090051
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1590389216
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\work\\demo_sb_sb\\FABOSC_0\\demo_sb_sb_FABOSC_0_OSC.v":1591090053
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\work\\demo_sb_sb_MSS\\demo_sb_sb_MSS_syn.v":1591090048
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\work\\demo_sb_sb_MSS\\demo_sb_sb_MSS.v":1591090049
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1590389215
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1590389215
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\work\\demo_sb_sb\\demo_sb_sb.v":1591090053
+#CUR:"D:\\SmartFusion2-Projects-Windows\\demo-proj\\demo\\component\\work\\demo_sb\\demo_sb.v":1591090113
+0			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\CCC_0\demo_sb_sb_CCC_0_FCCC.v" verilog
+1			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+2			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\FABOSC_0\demo_sb_sb_FABOSC_0_OSC.v" verilog
+3			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS_syn.v" verilog
+4			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb_MSS\demo_sb_sb_MSS.v" verilog
+5			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+6			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+7			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb_sb\demo_sb_sb.v" verilog
+8			"D:\SmartFusion2-Projects-Windows\demo-proj\demo\component\work\demo_sb\demo_sb.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 5
+7 2 4 6 0
+8 7
+#Dependency Lists(Users Of)
+0 7
+1 2
+2 7
+3 4
+4 7
+5 6
+6 7
+7 8
+8 -1
+#Design Unit to File Association
+module work demo_sb 8
+module work demo_sb_sb 7
+module work CoreResetP 6
+module work coreresetp_pcie_hotreset 5
+module work demo_sb_sb_MSS 4
+module work MSS_025 3
+module work demo_sb_sb_FABOSC_0_OSC 2
+module work XTLOSC_FAB 1
+module work RCOSC_25_50MHZ_FAB 1
+module work RCOSC_1MHZ_FAB 1
+module work XTLOSC 1
+module work RCOSC_25_50MHZ 1
+module work RCOSC_1MHZ 1
+module work demo_sb_sb_CCC_0_FCCC 0

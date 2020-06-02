@@ -1,0 +1,18 @@
+Library, Design Unit, compile Time, Peak Mem Usage
+work, demo_sb, 0h:00m:00s,     89 MB
+work, demo_sb_sb, 0h:00m:00s,     89 MB
+work, SYSRESET, 0h:00m:00s,     89 MB
+work, demo_sb_sb_FABOSC_0_OSC, 0h:00m:00s,     89 MB
+work, RCOSC_25_50MHZ, 0h:00m:00s,     89 MB
+work, RCOSC_25_50MHZ_FAB, 0h:00m:00s,     89 MB
+work, demo_sb_sb_MSS, 0h:00m:00s,     89 MB
+work, TRIBUFF, 0h:00m:00s,     89 MB
+work, INBUF, 0h:00m:00s,     89 MB
+work, MSS_025, 0h:00m:00s,     89 MB
+work, CoreResetP_Z1, 0h:00m:00s,     89 MB
+work, demo_sb_sb_CCC_0_FCCC, 0h:00m:00s,     89 MB
+work, CCC, 0h:00m:00s,     89 MB
+work, CLKINT, 0h:00m:00s,     89 MB
+work, GND, 0h:00m:00s,     89 MB
+work, VCC, 0h:00m:00s,     89 MB
+work, BIBUF, 0h:00m:00s,     89 MB

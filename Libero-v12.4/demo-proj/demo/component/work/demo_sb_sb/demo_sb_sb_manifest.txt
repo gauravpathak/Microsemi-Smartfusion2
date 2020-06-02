@@ -1,0 +1,40 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.4 (Version 12.900.0.16)
+
+Date      :  Tue Jun  2 14:57:33 2020
+Project   :  D:\SmartFusion2-Projects-Windows\demo-proj\demo
+Component :  demo_sb_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb/CCC_0/demo_sb_sb_CCC_0_FCCC.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb/FABOSC_0/demo_sb_sb_FABOSC_0_OSC.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb/demo_sb_sb.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/demo_sb_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/demo_sb_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/demo_sb_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb/subsystem.bfm
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/CM3_compile_bfm.tcl
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/test.bfm
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/user.bfm
+
+Firmware files for all Software IDE tools:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    D:/SmartFusion2-Projects-Windows/demo-proj/demo/component/work/demo_sb_sb_MSS/ENVM.cfg
+

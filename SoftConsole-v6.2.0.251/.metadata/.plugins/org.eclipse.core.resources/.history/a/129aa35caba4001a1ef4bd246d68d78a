@@ -1,0 +1,16 @@
+#ifndef spi_HW_PLATFORM_H_
+#define spi_HW_PLATFORM_H_
+/*****************************************************************************
+*
+*Created by Microsemi SmartDesign  Tue Jun  2 11:53:10 2020
+*
+*Memory map specification for peripherals in spi
+*/
+
+/*-----------------------------------------------------------------------------
+* CM3 subsystem memory map
+* Master(s) for this subsystem: CM3 
+*---------------------------------------------------------------------------*/
+
+
+#endif /* spi_HW_PLATFORM_H_*/

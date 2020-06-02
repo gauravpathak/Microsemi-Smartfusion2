@@ -1,0 +1,65 @@
+#include "firmware/drivers/mss_gpio/mss_gpio.h"
+#include "firmware/CMSIS/system_m2sxxx.h"
+#include "firmware/drivers/mss_i2c/mss_i2c.h"
+
+#define SLAVE_SER_ADDR_0   0x10u
+#define SLAVE_TX_BUFFER_SIZE   10u
+#define SLAVE_RX_BUFFER_SIZE   10u
+
+mss_i2c_instance_t i2c0;
+uint8_t g_slave_rx_buffer[SLAVE_RX_BUFFER_SIZE];
+uint8_t g_slave_tx_buffer[SLAVE_TX_BUFFER_SIZE] = {
+		1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+};
+static const mss_gpio_id_t LED[4] = {
+		MSS_GPIO_2, MSS_GPIO_3,
+		MSS_GPIO_4, MSS_GPIO_8,
+};
+
+void delay()
+{
+	int d = SystemCoreClock / 128;
+
+	while (d-- > 0)
+		;
+}
+
+int main(void)
+{
+	int i, current_val;
+	MSS_GPIO_init();
+	MSS_I2C_init(&i2c0, SLAVE_SER_ADDR_0, MSS_I2C_PCLK_DIV_256);
+    MSS_I2C_set_slave_tx_buffer(&i2c0, g_slave_tx_buffer, sizeof(g_slave_tx_buffer));
+    MSS_I2C_set_slave_rx_buffer(&i2c0, g_slave_rx_buffer, sizeof(g_slave_rx_buffer));
+    MSS_I2C_set_slave_mem_offset_length(&i2c0, 1);
+    MSS_I2C_enable_slave(&i2c0);
+
+	/* Init & turn on all LEDs */
+	for (i = 0; i < 4; i++) {
+		MSS_GPIO_config(LED[i], MSS_GPIO_OUTPUT_MODE);
+		MSS_GPIO_set_output(LED[i], 0);
+	}
+	delay();
+	delay();
+	delay();
+	delay();
+
+	/* Blink all LEDs on start up */
+	for (i = 0; i < 4; i++) {
+		for (current_val = 0; current_val < 4; ++current_val)
+			MSS_GPIO_set_output(LED[current_val], 1);
+		delay();
+		for (current_val = 0; current_val < 4; ++current_val)
+			MSS_GPIO_set_output(LED[current_val], 0);
+		delay();
+	}
+
+	/* Sequence-blink */
+	for (;;) {
+		for (i = 0; i < 4; i++) {
+			current_val = (MSS_GPIO_get_outputs() & (1 << LED[i])) ? 1 : 0;
+			MSS_GPIO_set_output(LED[i], current_val ^ 1);
+			delay();
+		}
+	}
+}
